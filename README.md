@@ -1,10 +1,6 @@
 <div align="center">
-  <img src="assets/name.svg" width="800" height="400" alt="Click to see the source">
+  <img src="assets/name.svg" width="800" height="150" alt="Click to see the source">
 </div>
-
-
-
-### Welcome 👋
 
 <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=fabiosvbbd&show_icons=true" />
 <img align="left" width="47%"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiosvbbd" />
