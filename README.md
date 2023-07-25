@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/name.svg" width="800" height="150" alt="Click to see the source">
+  <img src="assets/name.svg" width="800" alt="Click to see the source">
 </div>
 
 <img align="left" width="47%" src="https://github-readme-stats.vercel.app/api?username=fabiosvbbd&show_icons=true" />
