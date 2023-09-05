@@ -1,9 +1,320 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T08:39:13.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.2" etag="EW--d8CSIaNe5j4PKxDk" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T12:29:47.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wfu4d7N6jeDRmJ5nCxVZ" version="21.7.2" type="github">
   <diagram name="Page-1" id="epbXPcQsRLWGgcaXa0NR">
-    <mxGraphModel>
+    <mxGraphModel dx="1593" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="770" width="1165" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="1680" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-35" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="130" width="680" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-33" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="510" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-1" value="&lt;u&gt;Asset based pipelines&lt;/u&gt; &lt;font style=&quot;font-size: 13px;&quot;&gt;- (bundlez, zips, jars)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-2" target="vZPmKnCKLQdN7_7pOByF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-2" value="Pull request" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="310" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-3" value="trunk branch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="560" y="330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-4" target="vZPmKnCKLQdN7_7pOByF-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="180" as="sourcePoint" />
+            <mxPoint x="460" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-6" value="1. Open pull request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="235" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-7" target="vZPmKnCKLQdN7_7pOByF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="260" />
+              <mxPoint x="350" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-7" value="2. Github actions:&lt;br&gt;CI checks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-8" target="vZPmKnCKLQdN7_7pOByF-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="280" />
+              <mxPoint x="370" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-8" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-11" value="3. Required approvers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-13" value="4. Merge to trunk branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-14" target="vZPmKnCKLQdN7_7pOByF-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-14" target="vZPmKnCKLQdN7_7pOByF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-14" value="5. Github actions:&lt;br&gt;create version + release" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-16" value="trunk branch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-18" value="6. Raise PR in deployment repo &lt;br&gt;to update dev version&lt;br&gt;(auto merged)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="140" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-19" target="vZPmKnCKLQdN7_7pOByF-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1180" y="175" />
+              <mxPoint x="1180" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-19" value="7. Github actions:&lt;br&gt;Check if version changed for environment" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1270" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-21" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="1235" y="220" width="190" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-22" value="Changed?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="320" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-23" value="Not changed?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="320" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-24" target="vZPmKnCKLQdN7_7pOByF-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="430" />
+              <mxPoint x="1510" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-24" value="Do nothing" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-26" value="8. Check next environment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-29" target="vZPmKnCKLQdN7_7pOByF-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1250" y="510" />
+              <mxPoint x="1250" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-29" target="vZPmKnCKLQdN7_7pOByF-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1285" y="480" />
+              <mxPoint x="1530" y="480" />
+              <mxPoint x="1530" y="175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-29" value="Fetch version from product repo and deploy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-31" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;AWS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Product Repo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-36" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Deployment Repo&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="100" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-42" value="&lt;u&gt;Non asset based pipelines&lt;/u&gt;&amp;nbsp;&lt;font style=&quot;font-size: 13px;&quot;&gt;- (terraform applies, serverless deploys)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="45" y="730" width="530" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-46" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="810" width="900" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-47" target="vZPmKnCKLQdN7_7pOByF-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-47" value="Pull request" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-48" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="900" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-49" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-48" target="vZPmKnCKLQdN7_7pOByF-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="860" as="sourcePoint" />
+            <mxPoint x="470" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-50" value="1. Open pull request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="960" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.385;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-53" target="vZPmKnCKLQdN7_7pOByF-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-53" value="2. Github actions:&lt;br&gt;CI checks&lt;br&gt;Terraform plan" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="850" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-55" target="vZPmKnCKLQdN7_7pOByF-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="880" />
+              <mxPoint x="530" y="1010" />
+              <mxPoint x="380" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-55" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="850" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-56" value="4. Required approvers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="980" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-60" value="3. Write plan to PR" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="280" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-61" value="trunk branch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="585" y="1110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-62" value="5. Merge to trunk branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1120" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-64" target="vZPmKnCKLQdN7_7pOByF-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-64" value="5. Github actions: &lt;br&gt;`serverless deploy` or `terraform apply" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=18;spacingBottom=0;spacingRight=0;spacingTop=8;" vertex="1" parent="1">
+          <mxGeometry x="650" y="840" width="510" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-67" value="Dev&lt;br&gt;serverless deploy&lt;br&gt;terraform apply&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="665" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-74" value="Queued up, waiting for approval &quot;click&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;dashed=1;dashPattern=1 4;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="810" y="910" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-69" value="UAT&lt;br&gt;serverless deploy&lt;br&gt;terraform apply&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="825" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-67" target="vZPmKnCKLQdN7_7pOByF-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-75" value="Queued up, waiting for approval &quot;click&quot;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;dashed=1;dashPattern=1 4;spacingLeft=4;" vertex="1" parent="1">
+          <mxGeometry x="980" y="910" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-68" value="Prod&lt;br&gt;serverless deploy&lt;br&gt;terraform apply&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-69" target="vZPmKnCKLQdN7_7pOByF-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-76" value="&lt;u&gt;Google &quot;release please&quot; pipelines&lt;/u&gt;&amp;nbsp;&lt;font style=&quot;font-size: 13px;&quot;&gt;- (node package, terraform module, rust crate)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=23;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1390" width="640" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-77" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1455" width="1020" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-78" target="vZPmKnCKLQdN7_7pOByF-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-78" value="Pull request" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-79" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-80" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-79" target="vZPmKnCKLQdN7_7pOByF-78">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="1560" as="sourcePoint" />
+            <mxPoint x="470" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-81" value="1. Open pull request" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1660" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-82" target="vZPmKnCKLQdN7_7pOByF-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-82" value="2. Github actions:&lt;br&gt;CI checks" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.801;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-84" target="vZPmKnCKLQdN7_7pOByF-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="1710" />
+              <mxPoint x="384" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-84" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1530" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-86" value="3. Required approvers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1680" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-88" value="trunk branch" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-89" value="5. Merge to trunk branch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1820" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-92" target="vZPmKnCKLQdN7_7pOByF-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1680" />
+              <mxPoint x="640" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-92" target="vZPmKnCKLQdN7_7pOByF-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-92" value="6. Github actions:&lt;br&gt;Picks up new change since last release.&lt;br&gt;Creates &quot;Release PR&quot; with version semantically incremented and changelog updated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1485" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="vZPmKnCKLQdN7_7pOByF-95" target="vZPmKnCKLQdN7_7pOByF-88">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="1850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-95" value="&quot;Release&quot;&lt;br&gt;Pull request" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-97" value="7. &quot;Release PR&quot; generated" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="795" y="1530" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vZPmKnCKLQdN7_7pOByF-99" value="8. Merge &quot;Release PR&quot;, creates release, deploy release.&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Merge can be delayed to allow more commits/changes per release&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="711" y="1790" width="189" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
